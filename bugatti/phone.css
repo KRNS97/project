@@ -1,0 +1,102 @@
+#nav{
+flex-direction: column;
+}
+#nav ul li a{
+font-size: 0.8rem;
+
+}
+
+#logo img{
+    height: 80px;
+}
+#home{
+height: 325px;
+padding: 15px 15px;
+}
+
+.btn{
+    font-size: 0.8rem;
+    margin: 40px 5px
+}
+#home p{
+font-size: 1.2rem;
+
+}
+
+#home::before{
+height: 450px;
+/* width: 415px; */
+}
+
+#cars{
+    flex-direction: column;
+}
+
+#cars .box{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 25px;
+    margin: 3px 6px;
+    border-radius: 30px;
+    background-color: rgb(145, 144, 144);
+}
+
+#cars .box img {
+    height: 180px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#parent{
+flex-wrap: wrap;
+}
+
+#parent img{
+height: 101px;
+}
+
+.parent-item{
+    margin: 5px 10px;
+    padding: 5px 15px;
+}
+
+#parent-section::before {
+    content: "";
+    position: absolute;
+    background: url('bg2.png') center no-repeat;
+    width: 100%;
+    height: 380px;
+    z-index: -1;
+    opacity: .6;
+}
+
+#parent-section {
+    height: 380px;
+    position: relative;
+    margin: 50px 0px;
+}
+
+#drive{
+        position: relative;
+        height: 570px;
+}
+
+#drive::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 570px;
+    z-index: -1;
+    opacity: 0.7;
+    background: url(bg3.jpg) no-repeat center center/cover;
+}
+
+
+
+#drive-box form{
+    width: 80%;   
+}
+
+.h-primary{
+    font-size: 2rem;
+}
